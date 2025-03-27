@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    scroll-behavior: smooth;
+    text-decoration: none;  
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+}
+.header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: black;
+    padding: 10px;
+    top: 0;
+    right: 0;
+}
+.header .logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: aqua;
+}
+.cart1 a{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+.cart1 i{
+    color: black;
+    font-size: 30px;
+}
+.cart1 p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: black;
+    color: aqua;
+    font-weight: 600;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+}
+.sidebar{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: darkslategrey;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.head{
+    background-color: black;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.head p{
+    color: aqua;
+    font-size: 25px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 4px solid #333;
+}
+.foot h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: aqua;
+}
+#total{
+    font-size: 30px;
+    font-weight: 600;
+    color: aqua;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+}
+.img-box{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    width: 200px;
+    height: 150px;
+    border-radius: 8%;
+}
+.bottom{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+
+button{
+    width: 100%;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: aqua;
+    font-weight: 600;
+}
+.cart-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: darkslategrey;
+    border-bottom: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 10px;
+    height: 50px;
+}
+.cart-item h2{
+    font-size: 22px;
+    color: aqua;
+}
+.cart-item p{
+    font-size: 22px;
+    color: white;
+}
+.row-img{
+    width: 100px;
+    height: 90px;
+    border-radius: 50px;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rowimg{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+}
+.cart-item i{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+#cartItem{
+    font-size: 25px;
+    color: white;
+}
+#checkoutBtn{
+    position: relative;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 7px 25px;
+    cursor: pointer;
+    color: aqua;
+    box-shadow: 6px 6px 10px -1px rgba(52, 50, 50, 0.75);
+    transition: transform;
+}
+#checkoutBtn:hover{
+    transform: scale(1.1);
+}
+.buy a{
+    position: relative;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 7px 10px;
+    cursor: pointer;
+    color: aqua;
+    box-shadow: 6px 6px 10px -1px rgba(52, 50, 50, 0.75);
+    width: 120px;    
+    font-size: 15px;
+    transition: transform;
+    display: flex;
+}
+.cart-item button:hover{
+    transform: scale(1.1);
+}
+
+
+
